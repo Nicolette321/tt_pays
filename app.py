@@ -7,7 +7,7 @@ from flask import Flask,request
 ######### SETTING OBJECTS
 w3 = Web3(Web3.HTTPProvider("https://mainnet-rpc.thundercore.com"))
 app = Flask(__name__)
-private_key = "87c420a33aed96949ca87c1c6604a412fc60efe7444818f62838ed0abe1d8c7b"
+private_key = "api"
 mainAddress = "0x984AAa257F7a143bbc57e834F8b2C40CfBE2DF15"
 nonce = w3.eth.getTransactionCount(mainAddress)
 
